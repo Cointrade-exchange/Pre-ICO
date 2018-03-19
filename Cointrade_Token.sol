@@ -15,7 +15,7 @@ contract Cointrade_Token is Ownable, usingOraclize {
     uint256 public PreICOStartTime;
     uint256 public PreICOEndTime;
 
-    uint256 public hardCap = 212500000;
+    uint256 public hardCap = 25000000;
 
     // address where funds are collected
     address public wallet;
